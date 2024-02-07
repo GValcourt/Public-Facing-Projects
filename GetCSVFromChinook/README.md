@@ -1,0 +1,1 @@
+A utility to get the CustomerTable from the Chinook database.
