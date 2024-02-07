@@ -7,10 +7,10 @@ query = "SELECT * FROM Customer;"
 
 df = pandas.read_sql_query(query, conn)
 
-print(df.head())
+#print(df.head())
 
-#outputFile = ".\GetCSVFromChinook\output\\test.csv"
+outputFile = ".\GetCSVFromChinook\output\\test.csv"
 
-#df.to_csv(outputFile, index=True)
+df.to_csv(outputFile, index=True)
 
 conn.close()
